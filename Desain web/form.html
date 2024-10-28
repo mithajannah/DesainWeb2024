@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="https://smpn3sby.sch.id/wp-content/uploads/2017/07/logo-300x400.png" alt="Logo" width="100">
+        <h1>Formulir Pendaftaran Lomba Baca Puisi</h1>
+        <h2>SMP Negeri 3 Surabaya</h2>
+    </header>
+    <main>
+        <form action="submit" name="registrasi" method="post">
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama"><br>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="L">Laki-Laki</option>
+                <option value="P">Perempuan</option>
+            </select><br>
+            <label for="kelas">Kelas</label>
+            <select name="kelas" id="kelas">
+                <option value="7">Kelas 7</option>
+                <option value="8">Kelas 8</option>
+                <option value="9">Kelas 9</option>
+            </select><br>
+            <label for="tgl lahir">Tanggal Lahir</label>
+            <input type="date" id="start" name="tgl lahir" value="2006-01-01" min="2006-01-01" max="2018-12-31">
+            <br>
+            <label for="temapuisi">Tema Puisi</label>
+            <input type="text" name="temapuisi" id="temapuisi"><br>
+            <label for="telpon">No. Telpon</label>
+            <input type="text" name="telpon" id="telpon"><br>
+            <label for="alamat">Alamat</label>
+            <Textarea cols="24" rows="4"></Textarea><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="nama orangtua">Nama Orang Tua</label>
+             <input type="text" name="nama orangtua" id="nama orangtua"><br>
+        </form>
+    </main>
+    <footer>
+        <h2>Perhatikan!</h2>
+        <p>Tema yang diangkat tidak boleh mengandung unsur SARA</p>
+    </footer>
+</body>
+</html>
