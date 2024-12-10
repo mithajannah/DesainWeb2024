@@ -1,0 +1,64 @@
+.flex-container{
+display: flex;
+justify-content: space-between;
+gap: 10;
+flex-direction: column;
+}
+
+.flex-container div{
+    background-color: rgb(144, 26, 180);
+    padding: 5px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery div{
+    flex: 1 1 calc(25%-10px);
+    height: 100px;
+    background-color: rgb(15, 127, 224);
+}
+
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.header{
+    flex: 1 100%;
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+}
+
+.home{
+    flex: 1 100%;
+    background-color: yellowgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.content{
+    flex: 2 60%;
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar{
+    flex: 1 100%;
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer{
+    flex: 1 100%;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
