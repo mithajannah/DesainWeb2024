@@ -1,0 +1,98 @@
+a{
+    color: aqua;
+    transition: 1s;
+}
+a :hover{
+    color: red;
+}
+a.smooth {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em 2em;
+    width: 10em;
+    border-radius: 1,5em;
+    color: #b32c2c;
+    background-color: rgb(205, 0, 205);
+    transition-property: background-color;
+    transition-duration: 0.1s;
+}
+a.smooth:hover, a.smooth:focus {
+    background-color: rgb(137, 201, 19);
+}
+
+.navbar{
+    background-color: rgb(11, 197, 182);
+    margin-left: 10px;
+}
+
+.navbar:hover{
+    background-color: rgb(129, 66, 66);
+    transition: 2s;
+    box-shadow: 10px,10px,10px rgb(15, 15, 26);
+    border: 1px dashed;
+}
+
+.kotak{
+    background: rgb(25, 11, 77);
+    height: 100px;
+    width: 150px;
+    transition: width 2s, height 2s;
+    border-radius: 25px;
+    box-shadow: 10px,10px,10px blue;
+}
+
+.kotak:hover,video{
+    height: 300px;
+    width: 500px;
+    animation-play-state: running;
+}
+
+@keyframes warna{
+    0%{background-color: red;}
+    25%{background-color: purple;}
+    50%{background-color: yellow;}
+    75%{background-color: blue;}
+    100%{background-color: greenyellow;}
+}
+
+.kotak {
+    animation-name: warna;
+    animation-play-state: paused;
+
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+img:hover{
+    transform: scale(1)
+    rotate(15deg)
+    translate(10px,10px)
+    ;
+}
+
+.rounded{
+    border: 1px red;
+    text-align: center;
+    animation-name: berubah;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    border-radius: 25px;
+    /* text-shadow: 4px,3px,2px, balck; */
+    box-shadow: 2px,3px,2px black;
+    height: max-content;
+    font-size: 40px;
+}
+.rounded:hover{
+    transform: scale(2);
+}
+
+@keyframes berubah{
+    0%{background-color: green;}
+    50%{background-color: yellow;}
+    100%{background-color: red;}
+}
