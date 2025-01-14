@@ -1,0 +1,46 @@
+body {
+    font-family: Arial sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.fixed {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    padding: 20px;
+    border: 1px solid pink;
+}
+.static {
+    width: 100px;
+    background-color: red;
+    padding: 20px;
+    border: 1px solid pink;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: red;
+    padding: 20px;
+    border: 1px solid pink;
+}
+.relative {
+    position: relative;
+    background-color: red;
+    padding: 20px;
+    border: 1px solid pink;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: red;
+    padding: 20px;
+    border: 1px solid pink;
+}
+.container {
+    max-width: 960px;
+    height: auto;
+    background-color:lightpink;
+}
